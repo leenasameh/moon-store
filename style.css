@@ -1,0 +1,161 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    color: #333;
+    background: white;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+/* ================= HEADER ================= */
+
+.header {
+    width: 100%;
+    height: 75px;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    padding: 0 8%;
+
+    background: #fff;
+}
+
+.logo {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.navbar {
+    display: flex;
+    gap: 35px;
+}
+
+.navbar a {
+    font-size: 13px;
+    transition: 0.3s;
+}
+
+.navbar a:hover {
+    color: #9c8177;
+}
+
+.header-icons {
+    display: flex;
+    gap: 15px;
+    font-size: 16px;
+}
+
+
+/* ================= HERO ================= */
+
+.hero {
+    width: 100%;
+    min-height: 520px;
+
+    display: flex;
+
+    padding: 0 8%;
+}
+
+.hero-content {
+    width: 32%;
+
+    background: #9b867d;
+    color: white;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    text-align: center;
+}
+
+.hero-content p {
+    font-family: Georgia, serif;
+    font-size: 12px;
+
+    margin-bottom: 15px;
+}
+
+.hero-content h1 {
+    font-family: Georgia, serif;
+    font-size: 32px;
+    font-weight: normal;
+
+    letter-spacing: 2px;
+
+    margin-bottom: 30px;
+}
+
+.shop-btn {
+    background: white;
+    color: #555;
+
+    padding: 12px 40px;
+
+    font-size: 10px;
+
+    transition: 0.3s;
+}
+
+.shop-btn:hover {
+    background: #eee;
+}
+
+.hero-image {
+    width: 68%;
+}
+
+.hero-image img {
+    width: 100%;
+    height: 100%;
+
+    object-fit: cover;
+}
+/* ================= COLLECTION ================= */
+
+.collections {
+    width: 84%;
+
+    margin: 60px auto;
+
+    display: grid;
+
+    grid-template-columns: repeat(4, 1fr);
+
+    gap: 30px;
+}
+
+.collection-card {
+    text-align: center;
+}
+
+.collection-card img {
+    width: 100%;
+    height: 260px;
+
+    object-fit: cover;
+
+    display: block;
+
+    margin-bottom: 20px;
+}
+
+.collection-card h3 {
+    font-size: 14px;
+
+    letter-spacing: 1px;
+
+    font-weight: 500;
+}

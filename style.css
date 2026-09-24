@@ -123,39 +123,3 @@ a {
 
     object-fit: cover;
 }
-/* ================= COLLECTION ================= */
-
-.collections {
-    width: 84%;
-
-    margin: 60px auto;
-
-    display: grid;
-
-    grid-template-columns: repeat(4, 1fr);
-
-    gap: 30px;
-}
-
-.collection-card {
-    text-align: center;
-}
-
-.collection-card img {
-    width: 100%;
-    height: 260px;
-
-    object-fit: cover;
-
-    display: block;
-
-    margin-bottom: 20px;
-}
-
-.collection-card h3 {
-    font-size: 14px;
-
-    letter-spacing: 1px;
-
-    font-weight: 500;
-}
